@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport'
+    content="width=device-width"/>
+    <title> F1 Countdown</title>
+    <!-- adding extrenal stylesheet -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <section class="header">
+      <!-- adding navigation to the website with javascript to move throuth pages -->
+      <div id="nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="cw2.html">Home</a>
+          <a href="teams.html">Teams</a>
+          <a href="schedule.html">2021 Schedule</a>
+          </div>
+      </div>
+      <span id="open" onclick="openNav()">&#9776;</span>
+      <h1>F1 Countdown</h1>
+    </section>
+    <section id="countdown">
+      <h3>NEXT RACE</h3>
+      <!-- paragraf for countdown javascript -->
+    <p id="demo"></p>
+  </section>
+    <section id="champ">
+      <h3>WORLD CHAMPION 2020</h3>
+      <img src="img/hamilton.jpg" alt="Lewis Hamilton" class="LH">
+      <h4>Lewis Hamilton</h4>
+      <p>
+        <span class="label">Team:</span> Mercedes-AMG Petronas F1 Team
+      </p>
+      <p>
+        <span class="label">Points scored:</span> 347
+     </p>
+    </section>
+    <section id="constr">
+      <h3>CONSTRUCTOR WORLD CHAMPION 2020</h3>
+      <img src="img/toto.jpg" alt="Toto Wolff" class="Merc">
+      <h4>Mercedes-AMG Petronas F1 Team</h4>
+      <p>
+        <span class="label">Team Chief:</span> Toto Wolff
+      </p>
+      <p>
+        <span class="label">Drivers:</span> Lewis Hamilton, Valtteri Bottas
+      </p>
+      <p>
+        <span class="label">Points scored:</span> 573 points
+      </p>
+    </section>
+    <footer>Iga Lapinska P2607197</footer>
+    <!-- adding java scripts to the html -->
+    <script src="js/menu.js"></script>
+    <script src="js/clock.js"></script>
+    </body>
+</html>
